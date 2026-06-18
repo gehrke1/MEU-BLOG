@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo">Meu Blog</div>
+        <nav class="main-nav" aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">Sobre Mim</a></li>
+                <li><a href="curriculum.html">Currículo</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="controls">
+            <button id="font-decrease" aria-label="Diminuir tamanho da fonte" title="Diminuir fonte">A-</button>
+            <button id="font-increase" aria-label="Aumentar tamanho da fonte" title="Aumentar fonte">A+</button>
+            <button id="theme-toggle" aria-label="Alternar modo noturno" title="Modo noturno">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Olá! Eu sou o Lucas</h1>
+                <p>
+                    Bem-vindo(a) ao meu blog! Aqui eu compartilho a minha jornada como
+                    estudante de Ciência da Computação na UPF, dicas de programação,
+                    minhas receitas favoritas e um pouco do que eu aprendo no dia a dia.
+                </p>
+                <a href="about.html" class="btn">Conheça minha história</a>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Últimas Postagens</h2>
+            <div class="posts-grid">
+
+                <article class="card">
+                    <img src="assets/post-1.svg" alt="Capa da postagem sobre a linguagem C">
+                    <div class="card-body">
+                        <span class="tag">Programação</span>
+                        <h3>Meus primeiros passos em C</h3>
+                        <p>O que aprendi escrevendo meu primeiro "Olá, mundo!" e os erros que todo iniciante comete.</p>
+                        <a href="#" class="read-more">Ler mais →</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="assets/post-2.svg" alt="Capa da postagem sobre HTML e CSS">
+                    <div class="card-body">
+                        <span class="tag">Web</span>
+                        <h3>HTML e CSS na prática</h3>
+                        <p>Como montei meu primeiro site do zero na disciplina de Web Lab e o que mais gostei.</p>
+                        <a href="#" class="read-more">Ler mais →</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="assets/post-3.svg" alt="Capa da postagem sobre a rotina na universidade">
+                    <div class="card-body">
+                        <span class="tag">Vida universitária</span>
+                        <h3>Minha rotina na UPF</h3>
+                        <p>Como organizo os estudos, os trabalhos e ainda sobra tempo para os hobbies.</p>
+                        <a href="#" class="read-more">Ler mais →</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Meu Blog · Lucas Gehrke · Trabalho de Web Lab - UPF</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

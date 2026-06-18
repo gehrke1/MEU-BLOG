@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog | Sobre Mim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo">Meu Blog</div>
+        <nav class="main-nav" aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">Sobre Mim</a></li>
+                <li><a href="curriculum.html">Currículo</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="controls">
+            <button id="font-decrease" aria-label="Diminuir tamanho da fonte" title="Diminuir fonte">A-</button>
+            <button id="font-increase" aria-label="Aumentar tamanho da fonte" title="Aumentar fonte">A+</button>
+            <button id="theme-toggle" aria-label="Alternar modo noturno" title="Modo noturno">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="section-title">Sobre Mim</h1>
+
+            <div class="about-grid">
+                <figure class="about-photo">
+                    <img src="assets/perfil.jpg" alt="Foto de Lucas Gehrke">
+                    <figcaption style="text-align:center; color:var(--text-soft); margin-top:0.5rem;">
+                        Lucas Gehrke
+                    </figcaption>
+                </figure>
+
+                <div class="about-text">
+                    <h2>Trajetória acadêmica</h2>
+                    <p>
+                        Sou estudante do 1º semestre de Ciência da Computação na
+                        Universidade de Passo Fundo (UPF). Sempre tive curiosidade em
+                        entender como os computadores e os programas funcionam por dentro,
+                        e foi essa vontade que me trouxe para a área de tecnologia.
+                        Hoje estou tendo meus primeiros contatos com lógica de programação,
+                        algoritmos e desenvolvimento para a web.
+                    </p>
+
+                    <h2>Trajetória profissional</h2>
+                    <p>
+                        Trabalho desde os 18 anos. Meu primeiro emprego foi na fábrica de
+                        placas do DETRAN da minha cidade, que funcionava junto a um escritório
+                        de despachante, onde eu também ajudava. Depois, passei a atuar como
+                        despachante e no ponto bancário do Banrisul. Foi nessa caminhada que
+                        decidi investir em uma nova área: hoje meu objetivo é evoluir como
+                        programador, participar de projetos reais e aprender com pessoas
+                        mais experientes. Acredito que a prática constante é o melhor caminho
+                        para crescer na profissão.
+                    </p>
+
+                    <h2>Interesses</h2>
+                    <p>
+                        Fora da sala de aula, gosto de programação, jogos, principalmente música e de
+                        cozinhar.
+                        Tenho bastante interesse em desenvolvimento web, inteligência
+                        artificial, produção musical e em entender como grandes sistemas funcionam.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Meu Blog · Lucas Gehrke · Trabalho de Web Lab - UPF</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog | Mousse de Maracujá</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo">Meu Blog</div>
+        <nav class="main-nav" aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre Mim</a></li>
+                <li><a href="curriculum.html">Currículo</a></li>
+                <li><a href="receitas.html" class="active">Receitas</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="controls">
+            <button id="font-decrease" aria-label="Diminuir tamanho da fonte" title="Diminuir fonte">A-</button>
+            <button id="font-increase" aria-label="Aumentar tamanho da fonte" title="Aumentar fonte">A+</button>
+            <button id="theme-toggle" aria-label="Alternar modo noturno" title="Modo noturno">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <nav aria-label="Você está em" style="margin-bottom:1.5rem;">
+            <a href="receitas.html">← Voltar para Receitas</a>
+        </nav>
+
+        <article class="recipe-detail">
+            <header>
+                <h1 class="section-title">Mousse de Maracujá</h1>
+                <img src="assets/mousse.svg" alt="Taça de mousse de maracujá">
+            </header>
+
+            <ul class="recipe-meta">
+                <li>Preparo: 15 min</li>
+                <li>Geladeira: 2 h</li>
+                <li>Rende: 6 porções</li>
+                <li>Dificuldade: Fácil</li>
+            </ul>
+
+            <p>
+                O mousse de maracujá é a minha sobremesa favorita: é cremoso, tem aquele
+                equilíbrio perfeito entre doce e azedinho, e leva pouquíssimos ingredientes.
+                Ideal para quando aparece visita de última hora!
+            </p>
+
+            <section>
+                <h2>Ingredientes</h2>
+                <ul>
+                    <li>1 lata de leite condensado</li>
+                    <li>1 lata de creme de leite</li>
+                    <li>1 lata de suco concentrado de maracujá (use a lata de leite condensado como medida)</li>
+                    <li>1 envelope de gelatina sem sabor (opcional, para firmar mais)</li>
+                    <li>Polpa de 1 maracujá fresco para decorar</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Modo de preparo</h2>
+                <ol>
+                    <li>No liquidificador, coloque o leite condensado, o creme de leite e o suco de maracujá.</li>
+                    <li>Bata por cerca de 2 minutos, até a mistura ficar bem homogênea e cremosa.</li>
+                    <li>Se for usar gelatina, dissolva-a conforme as instruções da embalagem e bata junto.</li>
+                    <li>Despeje o creme em taças individuais ou em um recipiente grande.</li>
+                    <li>Leve à geladeira por pelo menos 2 horas para firmar.</li>
+                    <li>Antes de servir, decore com a polpa do maracujá fresco por cima.</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Dica</h2>
+                <p>
+                    Para um sabor ainda mais intenso, deixe o mousse na geladeira de um dia
+                    para o outro. As sementes do maracujá por cima dão um toque crocante e
+                    deixam a sobremesa ainda mais bonita.
+                </p>
+            </section>
+
+            <footer>
+                <p><em>Bom apetite! Se você fizer, me conta na página de <a href="contact.html">contato</a>.</em></p>
+            </footer>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Meu Blog · Lucas Gehrke · Trabalho de Web Lab - UPF</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

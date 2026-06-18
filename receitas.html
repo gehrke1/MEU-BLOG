@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog | Receitas Favoritas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="logo">Meu Blog</div>
+        <nav class="main-nav" aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Sobre Mim</a></li>
+                <li><a href="curriculum.html">Currículo</a></li>
+                <li><a href="receitas.html" class="active">Receitas</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="controls">
+            <button id="font-decrease" aria-label="Diminuir tamanho da fonte" title="Diminuir fonte">A-</button>
+            <button id="font-increase" aria-label="Aumentar tamanho da fonte" title="Aumentar fonte">A+</button>
+            <button id="theme-toggle" aria-label="Alternar modo noturno" title="Modo noturno">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="section-title">Receitas Favoritas</h1>
+        <p>Algumas das receitas que mais gosto de fazer em casa. Clique na do Mousse de Maracujá para ver o passo a passo completo!</p>
+
+        <section>
+            <ul class="recipe-grid">
+
+                <li class="card">
+                    <div class="card-body">
+                        <span class="tag">Sobremesa</span>
+                        <h3>Mousse de Maracujá</h3>
+                        <p>Cremoso, gelado e super fácil de fazer — minha sobremesa favorita.</p>
+                        <a href="mousse-maracuja.html" class="read-more">Ver receita completa →</a>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Meu Blog · Lucas Gehrke · Trabalho de Web Lab - UPF</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
